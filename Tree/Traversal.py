@@ -9,7 +9,7 @@ class Tree:
     def __init__(self,data=0):
         self.root = Node(data)
 
-    # -------------------------------- pre-Order ---------------------------
+    # -------------------------------- in-Order ---------------------------
     # During the function calling we are not passing root node of tree, instead we are
     # dividing the traversal into two parts and passing root node of tree to another method
     # i.e., "inorderT"
